@@ -8,7 +8,7 @@
 }
 
 /* Resuable */
-.yellow-button button {
+.yellow-button {
     background-color: #FFD700;
     color: #000;
     border: none;
@@ -29,6 +29,16 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+}
+
+.yellow-button button {
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 nav .logo {
@@ -78,3 +88,23 @@ nav .logo {
     color: #FFD700;
 }
 
+
+
+
+/* hero section */
+.hero-section {
+    background-image: url('./assests/Background.png');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.hero-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
