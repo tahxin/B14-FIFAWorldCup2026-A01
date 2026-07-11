@@ -48,5 +48,5 @@ cd B14-FIFAWorldCup2026-A01
 ├── assets/             # Images, styling assets, and icons
 ├── git init.txt        # Initial Git setup commands and reference notes
 ├── index.html          # Main landing page HTML structure
-├── style.css        # Main css page
+├── style.css           # Main css page
 └── README.md           # Project documentation
