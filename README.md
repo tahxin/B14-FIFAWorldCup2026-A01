@@ -11,7 +11,7 @@ A clean, responsive, and fully semantic static landing page designed for the his
 
 ## Tech Stack
 
-*   **HTML5:** Semantic structural markup (`<header>`, `<section>`, `<main>`, `<table>`, `<footer>`).
+*   **HTML5:** Semantic structural markup.
 *   **CSS3:** Custom styling featuring responsive typography, modern alignment techniques, and layout rules for multi-device compatibility.
 
 ## Getting Started
@@ -24,10 +24,11 @@ You only need a modern web browser (Chrome, Firefox, Safari, Edge) and a basic t
 ### Installation & Launch
 
 1. Clone or download the repository:
-   ```bash
+```bash
 git clone https://github.com/tahxin/B14-FIFAWorldCup2026-A01.git
 
 ```
+
 
 2. Navigate into the project folder:
 ```bash
@@ -39,14 +40,3 @@ cd B14-FIFAWorldCup2026-A01
 3. Launch the project:
 * **Option A:** Simply double-click the `index.html` file to open it in your default browser.
 * **Option B:** If using VS Code, right-click `index.html` and select **Open with Live Server** for a live-reloading preview.
-
-
-
-## Project Structure
-
-
-├── assets/             # Images, styling assets, and icons
-├── git init.txt        # Initial Git setup commands and reference notes
-├── index.html          # Main landing page HTML structure
-├── style.css           # Main css page
-└── README.md           # Project documentation
