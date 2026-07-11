@@ -1,5 +1,80 @@
+/* Universal */
+
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
 }
+
+/* Resuable */
+.yellow-button button {
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.yellow-button button:hover {
+    background-color: #FFC107;
+}
+
+
+/* Nav Section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo div {
+    margin-left: 10px;
+}
+
+
+
+.logo div h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+}
+
+.nav-buttons ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.nav-buttons ul li {
+    list-style: none;
+} 
+
+.nav-buttons ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-buttons ul li a:hover {
+    color: #FFD700;
+}
+
