@@ -107,4 +107,27 @@ nav .logo {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+    /* margin: 20px;
+    padding: 20px; */
+}
+
+.hero-section h2 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    max-width: 600px;
+}
+
+.hero-section .yellow-button {
+    background-color: #FFD700;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
