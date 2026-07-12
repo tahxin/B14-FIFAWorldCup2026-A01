@@ -132,3 +132,36 @@ nav .logo {
     font-size: 16px;
     cursor: pointer;
 }
+
+
+
+/* stats-section */
+.stats {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: #FFD700;
+    margin: 10px;
+    padding: 20px;
+}
+
+.stat-boxes {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 20px;
+}
+
+.stat-boxes p {
+    
+    
+    color: black;
+}
+
+.stat-boxes h4 {
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+}
