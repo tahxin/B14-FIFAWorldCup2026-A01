@@ -165,3 +165,74 @@ nav .logo {
     font-weight: bold;
     color: black;
 }
+
+
+
+
+/* host cities */
+
+
+
+.cities{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+}
+
+.city-boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+    padding: 20px;
+}
+
+.city-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.city-details ul {
+    margin-left: 18px;
+}
+
+
+/* match-schedule-table */
+
+
+.schedule-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+/* .schedule-section table {
+    width: 100%;
+    border-collapse: collapse;
+} */
+
+
+thead {
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+    background-color: #A73131;
+    align-items: left;
+}
+
+.schedule-section table td {
+    align-items: left;
+}
